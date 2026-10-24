@@ -18,6 +18,7 @@ spring:
       hibernate:
         jdbc:
           time_zone: UTC
+        tenant_identifier_resolver: com.
 
   flyway:
     enabled: true
